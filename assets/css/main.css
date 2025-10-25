@@ -1448,7 +1448,13 @@ input, select, textarea {
 					top: calc(-2rem - 1px);
 					height: calc(2rem + 1px);
 				}
-
+			
+			.logo img {
+				width: 80%;
+				height: 80%;
+				object-fit: cover; /* o cover, según si quieres que se recorte o no */
+			}
+			
 			#header .logo {
 				width: 4.75rem;
 				height: 4.75rem;
@@ -1671,3 +1677,4 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
