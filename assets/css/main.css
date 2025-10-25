@@ -72,6 +72,12 @@ input, select, textarea {
 	appearance: none;
 }
 
+.logo img {
+	width: 80%;
+	height: 80%;
+	object-fit: cover; /* o cover, según si quieres que se recorte o no */
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -1293,6 +1299,9 @@ input, select, textarea {
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
+			display: flex; 
+			align-items: center; 
+			justify-content: center; 
 		}
 
 			#header .logo .icon:before {
